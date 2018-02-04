@@ -13,12 +13,10 @@ import { AjustesPage,
         PrincipalPage 
 } from '../pages/index.paginas';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     AjustesPage, 
     Ajustes2Page, 
     ModalPage, 
@@ -33,7 +31,6 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
     AjustesPage, 
     Ajustes2Page, 
     ModalPage, 
