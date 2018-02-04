@@ -20,12 +20,18 @@ export class Pagina3Page {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
     this.mutante = this.navParams.get("mutante");
-
-    console.log(this.mutante);
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Pagina3Page');
+  }
+
+  irAtras(){
+    this.navCtrl.pop();
+  }
+
+  irRoot(){
+    this.navCtrl.popToRoot();
   }
 
 }

@@ -10,7 +10,8 @@ import { AjustesPage,
         ModalPage, 
         Pagina2Page, 
         Pagina3Page, 
-        PrincipalPage 
+        PrincipalPage ,
+        TabsPage
 } from '../pages/index.paginas';
 import { MyApp } from './app.component';
 
@@ -22,7 +23,8 @@ import { MyApp } from './app.component';
     ModalPage, 
     Pagina2Page, 
     Pagina3Page, 
-    PrincipalPage 
+    PrincipalPage,
+    TabsPage 
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { MyApp } from './app.component';
     ModalPage, 
     Pagina2Page, 
     Pagina3Page, 
-    PrincipalPage
+    PrincipalPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
