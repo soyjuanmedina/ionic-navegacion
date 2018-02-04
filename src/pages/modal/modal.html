@@ -15,4 +15,16 @@
 
 <ion-content padding>
 
+  {{ nombre }} {{edad}}
+
+  <button ion-button block color="sk"
+    (click)="cerrar_con_parametros()">
+    Cerrar modal mandando  parámetros
+  </button>
+
+  <button ion-button block color="primary"
+    (click)="cerrar_sin_parametros()">
+    Cerrar modal sin  parámetros
+  </button>
+
 </ion-content>
